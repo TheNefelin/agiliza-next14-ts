@@ -3,29 +3,30 @@ import Image from "next/image"
 interface Props {
   titulo: string,
   descripcion: string,
-  img_url: string
+  img_url: string,
+  alt: string,
 }
 
-const MyBanner = (props: Props) => {
+const MySection = (props: Props) => {
   return (
-    <section className='grid place-items-center gap-4 m-8'>
+    <section className='grid place-items-center gap-4'>
       <span>
         <h1 className='titulo text-4xl text-center text-amber-500'><strong>{props.titulo}</strong></h1>
-        {props.descripcion &&
-          <p className='text-gray-500 mt-4'>
-            {props.descripcion}
-          </p>}
+        <p className='text-gray-500 m-4'>
+          {props.descripcion}
+        </p>
       </span>
       {props.img_url &&
         <Image
           className="h-auto w-auto"
-          src={"/procesos.webp"}
-          alt="Diagrama Mejora de Procesos"
+          src={props.img_url}
+          alt={props.alt}
           height={500}
           width={500}
+          priority
         ></Image>}
     </section>
   )
 }
 
-export default MyBanner
+export default MySection

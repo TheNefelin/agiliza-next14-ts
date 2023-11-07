@@ -16,9 +16,9 @@ const MyMenu = () => {
         </Button>
       </DropdownTrigger>
       <DropdownMenu aria-label="Dynamic Actions" items={dt_links}>
-        {(item) => (
-          <DropdownItem key={item.key}>
-            <Link key={item.key} href={item.url}>{item.label}</Link>
+        {(item: any) => (
+          <DropdownItem key={item.key} href={item.url} textValue={item.label}>
+            {item.label}
           </DropdownItem>
         )}
       </DropdownMenu>

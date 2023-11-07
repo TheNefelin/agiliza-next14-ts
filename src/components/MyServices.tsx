@@ -1,3 +1,4 @@
+import MySection from "@/components/MySection"
 import { dt_services } from "@/lib/data"
 
 import {
@@ -16,11 +17,18 @@ const MyServices = () => {
   ]
 
   return (
-    <div className=''>
-      {dt_services.map((e, index) => {
-        const NewIcon = hero[index]
+    <>
+      <MySection
+        titulo="Servicios"
+        descripcion=""
+        img_url=""
+        alt=""
+      ></MySection>
+
+      {dt_services.map((e) => {
+        const NewIcon = hero[e.key - 1]
         return (
-          <article key={index} className={`flex ${index % 2 === 0 && "flex-row-reverse"} gap-4 flex-wrap justify-center bg-gray-200 text-gray-500 p-4 mb-4`}>
+          <article key={e.key} className={`flex ${e.key % 2 === 0 && "flex-row-reverse"} gap-4 flex-wrap justify-center bg-gray-200 text-gray-500 p-4 mb-4`}>
             <header className='max-w-lg grid gap-4'>
               <h1 className='font-bold text-2xl text-violet-800'>{e.nombre}</h1>
               {e.descripcion.map((d, dIndex) => (
@@ -33,7 +41,7 @@ const MyServices = () => {
           </article>
         )
       })}
-    </div>
+    </>
   )
 }
 
