@@ -20,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es" id="Inicio">
-      <body className={`${roboto.className} relative`}>
+    <html lang="es">
+      <body id="Inicio" className={`${roboto.className} relative`}>
 
         <Image
           id='background'
