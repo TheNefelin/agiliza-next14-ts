@@ -6,11 +6,8 @@ import MySection from "@/components/MySection"
 import { dt_news } from "@/lib/data"
 
 const MyNews = () => {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-
   return (
-    <section className="flex flex-col gap-8 p-4">
+    <section className="flex flex-col gap-4 px-4 pt-8">
       <MySection
         titulo="Novedades"
         descripcion=""

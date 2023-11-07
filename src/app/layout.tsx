@@ -1,9 +1,10 @@
 import type { Metadata } from 'next'
 import { roboto } from '@/lib/fonts'
 import './globals.css'
+import Image from 'next/image'
 import MyNavBar from '@/components/MyNavBar'
 import MyFooter from "@/components/MyFooter"
-import Image from 'next/image'
+import MyRRSS from "@/components/MyRRSS"
 
 // text-violet-800
 // text-gray-500
@@ -36,6 +37,7 @@ export default function RootLayout({
 
         {children}
 
+        <MyRRSS></MyRRSS>
         <MyFooter></MyFooter>
       </body>
     </html>
