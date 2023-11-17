@@ -1,3 +1,4 @@
+import Image from "next/image"
 import MySection from "@/components/MySection"
 import MyCardPro from "@/components/MyCardPro"
 import MyServices from "@/components/MyServices"
@@ -5,7 +6,16 @@ import MyContact from "@/components/MyContact"
 
 export default function Home() {
   return (
-    <main className="py-8">
+    <main>
+      <Image
+        id='background_banner'
+        src={"/background_banner.png"}
+        alt="banner"
+        width={6000}
+        height={3000}
+      >
+      </Image>
+
       <MySection
         titulo="Juntos hacemos crecer tu negocio"
         descripcion="Todos necesitamos crecer, evolucionar.  El mundo actual nos recuerda que es necesario adaptarnos a los cambios del entorno. Pasar al siguiente nivel es lo más natural, pero no siempre lo más fácil, pero para eso, te podemos ayudar, analizamos tus procesos y detectamos posibles mejoras para aumentar tu eficiencia y fidelizar a tus clientes."

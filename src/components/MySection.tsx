@@ -10,7 +10,7 @@ interface Props {
 const MySection = (props: Props) => {
   return (
     <section className='grid place-items-center gap-4 px-4'>
-      <span>
+      <span className="max-w-6xl">
         <h1 className='titulo text-4xl text-center text-amber-500 py-4'><strong>{props.titulo}</strong></h1>
         <p className='text-gray-500 m-4'>
           {props.descripcion}
