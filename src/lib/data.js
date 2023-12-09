@@ -39,7 +39,8 @@ const dt_services = [
     key: 3,
     nombre: "Servicio 3", 
     descripcion: [
-      "En su travesía, se encuentra con un grupo de cazadores Carja en apuros y, al salvarlos, descubre la existencia de un artefacto antiguo que promete revelar conocimientos sobre los antiguos. Junto a los cazadores, se aventura en una instalación tecnológica oculta, donde descubre la verdad sobre su origen: Aloy es un proyecto diseñado para preservar la vida y el conocimiento en un mundo amenazado."
+      "En su travesía, se encuentra con un grupo de cazadores Carja en apuros y, al salvarlos, descubre la existencia de un artefacto antiguo que promete revelar conocimientos sobre los antiguos.",
+      "Junto a los cazadores, se aventura en una instalación tecnológica oculta, donde descubre la verdad sobre su origen: Aloy es un proyecto diseñado para preservar la vida y el conocimiento en un mundo amenazado."
     ],
   },
   {
