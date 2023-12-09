@@ -30,26 +30,23 @@ const dt_services = [
   },
   {
     key: 2,
-    nombre: "Otro 1", 
+    nombre: "Servicio 2", 
     descripcion: [
-      "Es importante para una empresa conocer sus procesos, identificar sus tareas, entender sus objetivos y de esta forma se pueden identificar patrones de ineficiencia que necesitan ser mejorados.",
-      "Ayuda a la capacitación de nuevas contrataciones, apoyado con procedimientos e instructivos, permiten mantener informados a quienes sean responsable de cada actividad.",
+      "Aloy, la intrépida cazadora de la tribu Nora en Horizon, emprende un viaje hacia el norte en busca de respuestas sobre su pasado en un mundo lleno de máquinas y misterios."
     ],
   },
   {
     key: 3,
-    nombre: "Otro 2", 
+    nombre: "Servicio 3", 
     descripcion: [
-      "Es importante para una empresa conocer sus procesos, identificar sus tareas, entender sus objetivos y de esta forma se pueden identificar patrones de ineficiencia que necesitan ser mejorados.",
-      "Ayuda a la capacitación de nuevas contrataciones, apoyado con procedimientos e instructivos, permiten mantener informados a quienes sean responsable de cada actividad.",
-      "Podemos levantar los documentos asociados a tus procesos y entregarte las herramientas para mantenerlos actualizados.",
+      "En su travesía, se encuentra con un grupo de cazadores Carja en apuros y, al salvarlos, descubre la existencia de un artefacto antiguo que promete revelar conocimientos sobre los antiguos. Junto a los cazadores, se aventura en una instalación tecnológica oculta, donde descubre la verdad sobre su origen: Aloy es un proyecto diseñado para preservar la vida y el conocimiento en un mundo amenazado."
     ],
   },
   {
     key: 4,
-    nombre: "Otro 3", 
+    nombre: "Servicio 4", 
     descripcion: [
-      "Es importante para una empresa conocer sus procesos, identificar sus tareas, entender sus objetivos y de esta forma se pueden identificar patrones de ineficiencia que necesitan ser mejorados.",
+      "Armada con esta revelación, Aloy regresa a la superficie decidida a utilizar sus habilidades para proteger a su tribu y enfrentar los desafíos de un mundo postapocalíptico. Su valentía y determinación la convierten en una leyenda en Horizon."
     ],
   },
 ];
